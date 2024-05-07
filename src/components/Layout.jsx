@@ -7,7 +7,7 @@ const  Layout = () => {
     const [ searchParams, setSearchParams ] = useSearchParams()
     
     useEffect(() => {
-        setSearchParams({tab: 1})
+        !searchParams.get("tab") && setSearchParams({tab: 1})
     }, [])
 
     return <>

@@ -1,0 +1,8 @@
+{
+  "locations": [
+    { "title": "Your info", "page-title": "Personal Info" },
+    { "title": "Selelct Plans" },
+    { "title": "Add-ons" },
+    { "title": "Summary" }
+  ]
+}
